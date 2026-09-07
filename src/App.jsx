@@ -233,11 +233,11 @@ export default function App() {
             <div className="hero-left">
               <span className="hero-eyebrow">Hey, I'm a</span>
               <h1 className="hero-title">
-                Creative<br />Director
+                Creative<br />Designer
               </h1>
               <div className="hero-subtitle-badge">
                 <span className="pulse-dot" />
-                Available for Senior Roles & Selected Projects
+                Available for Selected Projects
               </div>
             </div>
 
