@@ -159,7 +159,7 @@ export default function App() {
 
   // Copy Email Handler
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText('hello@folioblox.dev');
+    navigator.clipboard.writeText('ruchira.tamohara@gmail.com');
     setCopiedEmail(true);
     setTimeout(() => setCopiedEmail(false), 2500);
   };
@@ -179,7 +179,7 @@ export default function App() {
       {/* Floating Modern Navbar */}
       <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
         <a href="#home" className="nav-brand" onClick={closeMobileMenu}>
-          Folioblox<span className="brand-dot" />
+          Ruchira<span className="brand-dot" />
         </a>
 
         {/* Desktop Navigation Links */}
@@ -233,7 +233,7 @@ export default function App() {
             <div className="hero-left">
               <span className="hero-eyebrow">Hey, I'm a</span>
               <h1 className="hero-title">
-                Creative<br />Designer
+                Software<br />Engineer
               </h1>
               <div className="hero-subtitle-badge">
                 <span className="pulse-dot" />
@@ -243,9 +243,9 @@ export default function App() {
 
             <div className="hero-right">
               <div className="hero-quote-card">
-                <h2 className="quote-heading">Great design should feel invisible.</h2>
+                <h2 className="quote-heading">Building solutions that make a difference.</h2>
                 <p className="quote-body">
-                  From code to language, I build brands, scalable architectures, and interactive digital experiences that connect and convert.
+                  A motivated software engineering professional with a strong foundation in web and mobile application development, database management, and software design.
                 </p>
               </div>
             </div>
@@ -255,30 +255,30 @@ export default function App() {
           <div className="hero-capabilities-row">
             <div className="capability-item">
               <span className="capability-num">//01</span>
-              <span className="capability-name">Brand Strategy</span>
+              <span className="capability-name">Full Stack Development</span>
             </div>
             <div className="capability-item">
               <span className="capability-num">//02</span>
-              <span className="capability-name">Brand Identity Design</span>
+              <span className="capability-name">Mobile Development</span>
             </div>
             <div className="capability-item">
               <span className="capability-num">//03</span>
-              <span className="capability-name">Creative Engineering</span>
+              <span className="capability-name">Database Management</span>
             </div>
             <div className="capability-item">
               <span className="capability-num">//04</span>
-              <span className="capability-name">Technical Direction</span>
+              <span className="capability-name">UI/UX Design</span>
             </div>
           </div>
 
           {/* Trusted Brands Bar (From Reference Design) */}
           <div className="brands-pill-bar">
-            <span className="brands-label">Trusted by Brands I've Helped Shape</span>
+            <span className="brands-label">Technologies I Work With</span>
             <div className="brands-list">
-              <div className="brand-item"><span className="brand-icon" /> Supa Blox</div>
-              <div className="brand-item"><span className="brand-icon" /> Hype Blox</div>
-              <div className="brand-item"><span className="brand-icon" /> Frame Blox</div>
-              <div className="brand-item"><span className="brand-icon" /> Ultra Blox</div>
+              <div className="brand-item"><span className="brand-icon" /> React.js</div>
+              <div className="brand-item"><span className="brand-icon" /> React Native</div>
+              <div className="brand-item"><span className="brand-icon" /> Node.js</div>
+              <div className="brand-item"><span className="brand-icon" /> MongoDB</div>
             </div>
           </div>
         </section>
@@ -289,16 +289,16 @@ export default function App() {
             <div className="about-left">
               <span className="section-tag">Behind the Designs</span>
               <h2 className="section-title">
-                Shaping Experiences That Make Life Simpler
+                Building Digital Solutions That Solve Real Problems
               </h2>
             </div>
 
             <div className="about-right">
               <p className="about-statement">
-                I'm a product designer & creative engineer focused on building clean, intuitive interfaces and robust architectures that solve real-world problems.
+                I'm a software engineering professional with a strong foundation in web and mobile application development, database management, and software design.
               </p>
               <p className="about-sub">
-                Bridging the gap between conceptual design and high-performance code. Every interaction is crafted with precision, accessibility, and purpose to deliver lasting impact.
+                Passionate about learning new technologies, solving technical challenges, and continuously honing skills to contribute effectively within a professional IT environment. Currently pursuing a Higher Diploma in Computing and Software Engineering at ICBT Campus, awarded by Cardiff Metropolitan University.
               </p>
               <div className="about-cta-box">
                 <span className="about-cta-label">Let's Build Something Meaningful Together</span>
@@ -319,18 +319,18 @@ export default function App() {
             {/* Project 1 */}
             <div className="project-card">
               <div className="project-visual project-visual-gradient-1">
-                <span className="project-badge-pill">Smart Lifestyle & Hardware</span>
-                <span className="project-art-symbol">🧥</span>
+                <span className="project-badge-pill">Web Application</span>
+                <span className="project-art-symbol">🏥</span>
               </div>
               <div className="project-info">
-                <h3 className="project-title">Aero Thermal Outerwear</h3>
+                <h3 className="project-title">Hospital Management System</h3>
                 <p className="project-description">
-                  Next-generation smart apparel interface with integrated IoT telemetry and companion mobile experience.
+                  A web-based system to manage patient records, appointments, staff, and hospital services with responsive UI and full backend integration.
                 </p>
                 <div className="project-tags">
-                  <span className="tag-badge">Product Design</span>
-                  <span className="tag-badge">React Native</span>
-                  <span className="tag-badge">IoT</span>
+                  <span className="tag-badge">PHP</span>
+                  <span className="tag-badge">MySQL</span>
+                  <span className="tag-badge">HTML/CSS</span>
                 </div>
               </div>
             </div>
@@ -338,18 +338,18 @@ export default function App() {
             {/* Project 2 */}
             <div className="project-card">
               <div className="project-visual project-visual-gradient-2">
-                <span className="project-badge-pill">Spatial Audio & 3D</span>
-                <span className="project-art-symbol">🎧</span>
+                <span className="project-badge-pill">Desktop Application</span>
+                <span className="project-art-symbol">🛒</span>
               </div>
               <div className="project-info">
-                <h3 className="project-title">Studio Acoustics Pro</h3>
+                <h3 className="project-title">Point-of-Sale (POS) System</h3>
                 <p className="project-description">
-                  Interactive 3D soundstage configuration tool built with WebGL and spatial audio DSP algorithms.
+                  A Java-based POS system applying OOP principles with book management, customer management, sales processing, and receipt generation.
                 </p>
                 <div className="project-tags">
-                  <span className="tag-badge">Three.js</span>
-                  <span className="tag-badge">WebGL</span>
-                  <span className="tag-badge">Audio DSP</span>
+                  <span className="tag-badge">Java</span>
+                  <span className="tag-badge">OOP</span>
+                  <span className="tag-badge">MySQL</span>
                 </div>
               </div>
             </div>
@@ -357,18 +357,19 @@ export default function App() {
             {/* Project 3 */}
             <div className="project-card">
               <div className="project-visual project-visual-gradient-3">
-                <span className="project-badge-pill">Luxury E-Commerce & Brand</span>
-                <span className="project-art-symbol">🧴</span>
+                <span className="project-badge-pill">Mobile & Web App</span>
+                <span className="project-art-symbol">📱</span>
               </div>
               <div className="project-info">
-                <h3 className="project-title">Lumina Organic Essences</h3>
+                <h3 className="project-title">HR & Workforce Platform</h3>
                 <p className="project-description">
-                  Sustainable luxury skincare brand identity, packaging design, and high-conversion e-commerce platform.
+                  Designed and developed responsive web and mobile interfaces including Newsfeed, Rewards & Recognition, Time & Attendance, and Survey modules.
                 </p>
                 <div className="project-tags">
-                  <span className="tag-badge">Brand Identity</span>
-                  <span className="tag-badge">Next.js</span>
-                  <span className="tag-badge">Full Stack</span>
+                  <span className="tag-badge">React.js</span>
+                  <span className="tag-badge">React Native</span>
+                  <span className="tag-badge">TypeScript</span>
+                  <span className="tag-badge">Tailwind CSS</span>
                 </div>
               </div>
             </div>
@@ -384,16 +385,16 @@ export default function App() {
             {/* Role 1 */}
             <div className="experience-card">
               <div className="exp-meta">
-                <span className="exp-period">2023 — PRESENT</span>
-                <span className="exp-company">Apex Interactive</span>
-                <span className="exp-location">San Francisco, CA (Remote)</span>
+                <span className="exp-period">APRIL 2026 — PRESENT</span>
+                <span className="exp-company">TechFortreX</span>
+                <span className="exp-location">Remote (International)</span>
               </div>
               <div className="exp-content">
-                <h3 className="exp-role-title">Lead Creative Technologist & Product Designer</h3>
+                <h3 className="exp-role-title">Full Stack Developer Intern</h3>
                 <ul className="exp-bullets">
-                  <li>Spearheaded end-to-end design systems and frontend architecture for enterprise SaaS platform serving 650k+ daily active users.</li>
-                  <li>Architected real-time 3D product visualizers with WebGL, resulting in a 42% increase in customer conversion rates.</li>
-                  <li>Directed cross-functional team of 8 engineers and designers across design-to-code pipelines.</li>
+                  <li>Developing full-stack web applications and mobile application user interfaces in a remote international development environment.</li>
+                  <li>Designing and implementing responsive web interfaces and mobile UI screens with a focus on usability and user experience.</li>
+                  <li>Collaborating with developers using modern development workflows, version control, and remote communication tools.</li>
                 </ul>
               </div>
             </div>
@@ -401,32 +402,15 @@ export default function App() {
             {/* Role 2 */}
             <div className="experience-card">
               <div className="exp-meta">
-                <span className="exp-period">2021 — 2023</span>
-                <span className="exp-company">Veloce Digital</span>
-                <span className="exp-location">New York, NY</span>
+                <span className="exp-period">2024 — 2025</span>
+                <span className="exp-company">Veneiro Ventures (Pvt)</span>
+                <span className="exp-location">Sri Lanka</span>
               </div>
               <div className="exp-content">
-                <h3 className="exp-role-title">Senior Full Stack Engineer & UI Architect</h3>
+                <h3 className="exp-role-title">Site Supervisor</h3>
                 <ul className="exp-bullets">
-                  <li>Engineered high-performance web applications using React, TypeScript, Node.js, and AWS cloud infrastructure.</li>
-                  <li>Reduced web core vitals LCP by 55% across client web platforms through bundle splitting and edge caching.</li>
-                  <li>Collaborated closely with founders and executive stakeholders to define technical roadmaps and product UX.</li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Role 3 */}
-            <div className="experience-card">
-              <div className="exp-meta">
-                <span className="exp-period">2019 — 2021</span>
-                <span className="exp-company">Mono Design Studio</span>
-                <span className="exp-location">London, UK</span>
-              </div>
-              <div className="exp-content">
-                <h3 className="exp-role-title">Frontend Developer & Interactive Designer</h3>
-                <ul className="exp-bullets">
-                  <li>Crafted award-winning interactive websites, microsites, and digital brand identities for global Fortune 500 brands.</li>
-                  <li>Implemented fluid micro-interactions, canvas animations, and responsive web accessibility standards (WCAG AAA).</li>
+                  <li>Coordinated workers, contractors, and project schedules to ensure timely project delivery.</li>
+                  <li>Prepared progress reports and monitored project timelines.</li>
                 </ul>
               </div>
             </div>
@@ -443,39 +427,52 @@ export default function App() {
             <div className="edu-card">
               <h3 className="card-subtitle">🎓 Education</h3>
               <div className="edu-item">
-                <h4 className="edu-degree">B.S. in Computer Science & Interactive Media</h4>
-                <div className="edu-school">State University of Technology</div>
-                <p className="edu-details">Graduated Magna Cum Laude (GPA: 3.9/4.0) • Focus on Human-Computer Interaction, 3D Computer Graphics, and Distributed Systems.</p>
+                <h4 className="edu-degree">Higher Diploma in Computing and Software Engineering</h4>
+                <div className="edu-school">ICBT Campus, Sri Lanka — Awarded by Cardiff Metropolitan University</div>
+                <p className="edu-details">Dec 2024 – Apr 2026 (Undergraduate 2026)</p>
               </div>
 
               <div className="edu-item">
-                <h4 className="edu-degree">Professional Certifications</h4>
-                <div className="edu-school">Cloud & Engineering Credentials</div>
-                <p className="edu-details">AWS Certified Solutions Architect • Google Cloud Professional • Meta Advanced React Specialist.</p>
+                <h4 className="edu-degree">International Diploma in ICT (OTHM Level 3)</h4>
+                <div className="edu-school">ICBT Campus, Sri Lanka — OTHM Qualifications</div>
+                <p className="edu-details">Mar 2024 – Nov 2024</p>
+              </div>
+
+              <div className="edu-item">
+                <h4 className="edu-degree">G.C.E. Ordinary Level</h4>
+                <div className="edu-school">8A Passes and 1B</div>
+                <p className="edu-details">2018</p>
+              </div>
+
+              <div className="edu-item">
+                <h4 className="edu-degree">Certifications</h4>
+                <div className="edu-school">Google & SkillUp</div>
+                <p className="edu-details">Introduction to AI and Machine Learning on Google Cloud • React Native: Developing Android and iOS Apps (2026)</p>
               </div>
             </div>
 
             {/* Skills Box */}
             <div className="skills-card">
-              <h3 className="card-subtitle">⚡ Technical & Design Stack</h3>
+              <h3 className="card-subtitle">⚡ Technical Stack</h3>
               <div className="skills-pill-group">
-                <span className="skill-pill">React 18</span>
-                <span className="skill-pill">TypeScript</span>
+                <span className="skill-pill">JavaScript</span>
+                <span className="skill-pill">React.js</span>
                 <span className="skill-pill">Next.js</span>
-                <span className="skill-pill">Three.js / WebGL</span>
+                <span className="skill-pill">TypeScript</span>
+                <span className="skill-pill">React Native</span>
                 <span className="skill-pill">Node.js</span>
-                <span className="skill-pill">Canvas 2D</span>
-                <span className="skill-pill">Figma</span>
-                <span className="skill-pill">UI/UX Design</span>
-                <span className="skill-pill">Design Systems</span>
-                <span className="skill-pill">Docker</span>
-                <span className="skill-pill">AWS / Cloud</span>
-                <span className="skill-pill">Tailwind & CSS3</span>
-                <span className="skill-pill">CI/CD & DevOps</span>
-                <span className="skill-pill">Brand Identity</span>
+                <span className="skill-pill">HTML / CSS</span>
+                <span className="skill-pill">Tailwind CSS</span>
+                <span className="skill-pill">PHP</span>
+                <span className="skill-pill">Java</span>
+                <span className="skill-pill">C</span>
+                <span className="skill-pill">MySQL</span>
+                <span className="skill-pill">MongoDB</span>
+                <span className="skill-pill">GitHub</span>
+                <span className="skill-pill">Graphic Design</span>
               </div>
               <p className="about-sub">
-                Constantly exploring cutting-edge web graphics, generative UI, and high-performance web architecture.
+                Strong soft skills in Leadership, Problem Solving, Team Work, and Time Management.
               </p>
             </div>
           </div>
@@ -487,10 +484,10 @@ export default function App() {
             <span className="section-tag">Let's Connect</span>
             <h2 className="contact-title">Have a project in mind?<br />Let's build something great.</h2>
             <p className="contact-desc">
-              I'm always open to discussing new opportunities, creative collaborations, or product design and engineering roles.
+              I'm always open to discussing new opportunities, internships, or software engineering roles. Let's connect!
             </p>
             <div className="contact-actions">
-              <a href="mailto:hello@folioblox.dev" className="btn-contact-main">
+              <a href="mailto:ruchira.tamohara@gmail.com?subject=Let's%20Work%20Together&body=Hi%20Ruchira%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20connect." className="btn-contact-main">
                 Send an Email ➔
               </a>
               <button onClick={handleCopyEmail} className="btn-contact-secondary">
@@ -500,12 +497,11 @@ export default function App() {
           </div>
 
           <div className="footer-bottom">
-            <div>© {new Date().getFullYear()} Folioblox. All rights reserved.</div>
+            <div>© {new Date().getFullYear()} Ruchira Thamohara Jayasinghe. All rights reserved.</div>
             <div className="footer-socials">
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="footer-social-link">GitHub</a>
+              <a href="https://github.com/ruchira-jay" target="_blank" rel="noreferrer" className="footer-social-link">GitHub</a>
+              <a href="https://ruchira-jay.github.io/portfolio/" target="_blank" rel="noreferrer" className="footer-social-link">Portfolio</a>
               <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="footer-social-link">LinkedIn</a>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer" className="footer-social-link">Twitter</a>
-              <a href="https://dribbble.com" target="_blank" rel="noreferrer" className="footer-social-link">Dribbble</a>
             </div>
           </div>
         </section>
